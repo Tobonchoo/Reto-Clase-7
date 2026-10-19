@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AURA - Tienda de ropa femenina</title>
+
+    <style>
+
+        body {
+            background-color: #f3eeee;
+            color: #333333;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: white;
+            padding: 25px;
+        }
+
+        header h1 {
+            color: #8b5e5e;
+            font-size: 45px;
+            text-align: center;
+        }
+
+        header p {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            margin: 10px;
+            color: #333333;
+        }
+
+        nav a:hover {
+            color: brown;
+        }
+
+
+        /* INICIO */
+
+        .inicio {
+            background-color: #e5d5d5;
+            padding: 30px;
+        }
+
+        .inicio h2 {
+            color: #765050;
+            font-size: 30px;
+        }
+
+        .inicio p {
+            font-size: 18px;
+        }
+
+        .boton {
+            background-color: #765050;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .boton:hover {
+            background-color: #a66a6a;
+        }
+
+
+        /* COLECCION */
+
+        .coleccion {
+            background-color: white;
+            padding: 30px;
+        }
+
+        .coleccion h2 {
+            color: #765050;
+            font-size: 30px;
+        }
+
+        .producto {
+            background-color: #f3eeee;
+            padding: 15px;
+            margin: 15px 0;
+            border: 1px solid #d5caca;
+        }
+
+        .producto h3 {
+            color: #765050;
+        }
+
+        .producto:hover {
+            background-color: #eadada;
+        }
+
+
+        /* PROMOCIONES */
+
+        .promocion {
+            background-color: #eadada;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .promocion h2 {
+            color: #765050;
+        }
+
+
+        /* NOSOTROS */
+
+        .nosotros {
+            background-color: white;
+            padding: 30px;
+        }
+
+        .nosotros h2 {
+            color: #765050;
+        }
+
+        .nosotros p {
+            font-size: 17px;
+        }
+
+
+        /* FORMULARIO */
+
+        .formulario {
+            background-color: #765050;
+            color: white;
+            padding: 30px;
+        }
+
+        .formulario h2 {
+            color: white;
+        }
+
+        .campo {
+            margin: 15px 0;
+        }
+
+        .campo label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .campo input {
+            padding: 10px;
+            width: 300px;
+        }
+
+        .formulario button {
+            padding: 10px 20px;
+            margin-right: 10px;
+        }
+
+
+        /* PIE DE PAGINA */
+
+        footer {
+            background-color: #333333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <header>
+
+        <h1>AURA</h1>
+
+        <p>Tienda de ropa femenina</p>
+
+
+        <nav>
+
+            <a href="#inicio">Inicio</a>
+
+            <a href="#coleccion">Colección</a>
+
+            <a href="#promociones">Promociones</a>
+
+            <a href="#nosotros">Nosotros</a>
+
+            <a href="#contacto">Contacto</a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+
+        <section class="inicio" id="inicio">
+
+            <h2>Tu estilo, tu esencia</h2>
+
+            <p>
+                Bienvenida a AURA, una tienda de ropa femenina
+                creada para mujeres que quieren expresar su estilo.
+            </p>
+
+            <p>
+                Conoce nuestra nueva colección y descubre
+                tus prendas favoritas.
+            </p>
+
+            <a href="#coleccion" class="boton">
+                Ver colección
+            </a>
+
+        </section>
+
+
+        <section class="coleccion" id="coleccion">
+
+            <h2>Nueva colección</h2>
+
+            <p>
+                Conoce algunas de nuestras prendas favoritas.
+            </p>
+
+
+            <div class="producto">
+
+                <h3>Vestido Aura</h3>
+
+                <p>
+                    Vestido elegante y cómodo para diferentes ocasiones.
+                </p>
+
+                <p>
+                    Precio: $120.000
+                </p>
+
+                <a href="#contacto">
+                    Me interesa
+                </a>
+
+            </div>
+
+
+            <div class="producto">
+
+                <h3>Blusa Esencia</h3>
+
+                <p>
+                    Blusa femenina con un diseño sencillo y moderno.
+                </p>
+
+                <p>
+                    Precio: $80.000
+                </p>
+
+                <a href="#contacto">
+                    Me interesa
+                </a>
+
+            </div>
+
+
+            <div class="producto">
+
+                <h3>Conjunto Alma</h3>
+
+                <p>
+                    Conjunto cómodo para un estilo casual.
+                </p>
+
+                <p>
+                    Precio: $150.000
+                </p>
+
+                <a href="#contacto">
+                    Me interesa
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <section class="promocion" id="promociones">
+
+            <h2>Promoción especial</h2>
+
+            <p>
+                ¡Muy pronto tendremos nuevas promociones
+                para nuestras clientes!
+            </p>
+
+            <p>
+                Déjanos tu correo para recibir información
+                sobre descuentos y novedades.
+            </p>
+
+        </section>
+
+
+        <section class="nosotros" id="nosotros">
+
+            <h2>Sobre AURA</h2>
+
+            <p>
+                AURA es una tienda de ropa femenina que busca
+                ofrecer prendas modernas, cómodas y elegantes.
+            </p>
+
+            <p>
+                Nuestra nueva colección está pensada para que
+                cada mujer pueda mostrar su personalidad a través
+                de su forma de vestir.
+            </p>
+
+        </section>
+
+
+        <section class="formulario" id="contacto">
+
+            <h2>Recibe nuestras novedades</h2>
+
+            <p>
+                Déjanos tu correo electrónico para enterarte
+                de nuestras novedades y promociones.
+            </p>
+
+
+            <form action="#" method="post">
+
+
+                <div class="campo">
+
+                    <label for="nombre">
+                        Nombre
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Escribe tu nombre"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="campo">
+
+                    <label for="correo">
+                        Correo electrónico
+                    </label>
+
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="ejemplo@correo.com"
+                        required
+                    >
+
+                </div>
+
+
+                <button type="submit">
+                    Enviar
+                </button>
+
+                <button type="reset">
+                    Limpiar
+                </button>
+
+
+            </form>
+
+        </section>
+
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            AURA - Tienda de ropa femenina
+        </p>
+
+        <p>
+            Derechos Reservados Andrés Julián Tobon Montoya - 2026
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
